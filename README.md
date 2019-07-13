@@ -1,7 +1,7 @@
 # 前端模块化
 ## CommonJS
-核心思想:通过require方式来同步加载依赖的其他模块，通过module.exports导出需要暴露的接口。
-应用：Node.js采用这种方式，后推广到网页开发。
+核心思想:通过require方式来同步加载依赖的其他模块，通过module.exports导出需要暴露的接口。  
+应用：Node.js采用这种方式，后推广到网页开发。  
 举例：
   moduleA = require('./moduleA');
   module.exports = moduleA.someFunc;
